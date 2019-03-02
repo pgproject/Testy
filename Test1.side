@@ -1,0 +1,226 @@
+{
+  "id": "159ff10b-025c-4d29-aba4-836cbf0bfaab",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://konto.onet.pl",
+  "tests": [{
+    "id": "6c8c06e5-9706-44c4-a21e-9c78b084acaa",
+    "name": "test",
+    "commands": [{
+      "id": "ad1f863a-9f3d-4610-979f-d96dcd561db5",
+      "comment": "",
+      "command": "open",
+      "target": "/auth.html?app_id=poczta.onet.pl.front.onetapi.pl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "203d77fb-bd0d-423f-b6de-f6f08cc3b6fc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc9bd0fa-76de-4e3c-8bae-55a52a092d53",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=k_home",
+      "targets": [
+        ["id=k_home", "id"],
+        ["linkText=Poczta", "linkText"],
+        ["css=#k_home", "css:finder"],
+        ["xpath=//a[contains(text(),'Poczta')]", "xpath:link"],
+        ["xpath=//a[@id='k_home']", "xpath:attributes"],
+        ["xpath=//div[@id='k_mainBar']/h1/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://poczta.onet.pl')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Poczta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26458c13-54a3-474d-b580-e21910770f7a",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_password",
+      "targets": [
+        ["id=f_password", "id"],
+        ["name=password", "name"],
+        ["css=#f_password", "css:finder"],
+        ["xpath=//input[@id='f_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84905192-1ed5-4a3b-be94-aa00716db1e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_login",
+      "targets": [
+        ["id=f_login", "id"],
+        ["name=login", "name"],
+        ["css=#f_login", "css:finder"],
+        ["xpath=//input[@id='f_login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05df5377-d80a-4f4d-9b60-01957b94f493",
+      "comment": "",
+      "command": "type",
+      "target": "id=f_login",
+      "targets": [
+        ["id=f_login", "id"],
+        ["name=login", "name"],
+        ["css=#f_login", "css:finder"],
+        ["xpath=//input[@id='f_login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "grzp"
+    }, {
+      "id": "2e74b879-df42-41d1-b169-39044d8bc6fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=f_login",
+      "targets": [
+        ["id=f_login", "id"],
+        ["name=login", "name"],
+        ["css=#f_login", "css:finder"],
+        ["xpath=//input[@id='f_login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "grzp@op.pl"
+    }, {
+      "id": "abe1fe17-d2c3-4bc4-81a3-51a0db847de4",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_password",
+      "targets": [
+        ["id=f_password", "id"],
+        ["name=password", "name"],
+        ["css=#f_password", "css:finder"],
+        ["xpath=//input[@id='f_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ab7b67-ecab-4114-8993-4055742ad563",
+      "comment": "",
+      "command": "type",
+      "target": "id=f_password",
+      "targets": [
+        ["id=f_password", "id"],
+        ["name=password", "name"],
+        ["css=#f_password", "css:finder"],
+        ["xpath=//input[@id='f_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "LO18krk"
+    }, {
+      "id": "348374af-5345-4148-ab84-bba9280e66b0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=f_login",
+      "targets": [
+        ["id=f_login", "id"],
+        ["name=login", "name"],
+        ["css=#f_login", "css:finder"],
+        ["xpath=//input[@id='f_login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "266cf8f6-81d4-406c-880a-392637e69b76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginButton",
+      "targets": [
+        ["css=.loginButton", "css:finder"],
+        ["xpath=//input[@value='Zaloguj']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3efc812d-e4f0-4fcf-97c9-7db3b102bf44",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_password",
+      "targets": [
+        ["id=f_password", "id"],
+        ["name=password", "name"],
+        ["css=#f_password", "css:finder"],
+        ["xpath=//input[@id='f_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "aassaa"
+    }, {
+      "id": "a3cf01ec-96ed-47ef-a5f7-7003840b0e44",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_password",
+      "targets": [
+        ["id=f_password", "id"],
+        ["name=password", "name"],
+        ["css=#f_password", "css:finder"],
+        ["xpath=//input[@id='f_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59ecf16-a8b1-47a2-ac94-8cac90534a77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginButton",
+      "targets": [
+        ["css=.loginButton", "css:finder"],
+        ["xpath=//input[@value='Zaloguj']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0877d182-032d-4808-b9cd-7c14c0ea9482",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loginButton",
+      "targets": [
+        ["css=.loginButton", "css:finder"],
+        ["xpath=//input[@value='Zaloguj']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52f1f8d-d4d5-407f-9c30-725be6f3afd7",
+      "comment": "",
+      "command": "submit",
+      "target": "css=.loginButton",
+      "targets": [
+        ["css=.loginButton", "css:finder"],
+        ["xpath=//input[@value='Zaloguj']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/ul/li[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6082bff6-b1b0-4260-99e1-0ab119516d85",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c8c06e5-9706-44c4-a21e-9c78b084acaa"]
+  }],
+  "urls": ["https://konto.onet.pl/"],
+  "plugins": []
+}
